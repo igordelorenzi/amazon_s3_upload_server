@@ -1,5 +1,6 @@
 {
     "secretAccessKey": "YOUR_ACCESS_KEY",
     "accessKeyId": "YOUR_ACCESS_KEY_ID",
-    "region": "us-east-1"
+    "region": "us-east-1",
+    "bucketNameAndPath": "bucket_name/photos"
 }

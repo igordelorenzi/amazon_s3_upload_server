@@ -15,7 +15,7 @@ const s3 = new aws.S3()
 const upload = multer({
   storage: multerS3({
     s3: s3,
-    bucket: 'igordelorenzi/screenshots',
+    bucket: config.get('bucketNameAndPath'),
     contentType: multerS3.AUTO_CONTENT_TYPE,
     contentDisposition: 'inline',
     acl: 'public-read',
