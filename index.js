@@ -33,7 +33,7 @@ const router = express.Router()
 
 router.post('/upload', upload.array('files[]', 2), function (req, res) {
   const data = { success: true, url: req.files[0].location }
-  console.log('upload data', data)
+  console.log('Uploaded data:', data)
   return res.json(data)
 })
 
