@@ -23,5 +23,5 @@
 
 **Upload a file:**
 
-`curl --request POST --url "http://localhost:1337/upload" --form 'image=@/path_to_your_file' --include`
+`curl --request POST --url "http://localhost:1337/upload" --form 'files[]=@/path/to/your/image/file' --include`
 
