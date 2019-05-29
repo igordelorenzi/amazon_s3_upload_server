@@ -1,0 +1,5 @@
+{
+    "secretAccessKey": "YOUR_ACCESS_KEY",
+    "accessKeyId": "YOUR_ACCESS_KEY_ID",
+    "region": "us-east-1"
+}
