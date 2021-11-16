@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.459.0",
+    "aws-sdk": "^2.814.0",
     "config": "^3.1.0",
     "express": "^4.17.0",
     "multer": "^1.4.1",
